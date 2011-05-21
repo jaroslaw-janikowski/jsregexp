@@ -1,0 +1,8 @@
+﻿<view height="200" width="200">
+    <img height="86" width="185" x="8" y="8" src="mylogo.png"/>
+    <a height="16" width="141" x="33" y="98">warlock24@gmail.com
+    </a>
+    <a height="16" width="77" x="69" y="120" href="http://warlock24.googlepages.com\jsregexp"
+     >homepage
+    </a>
+</view>

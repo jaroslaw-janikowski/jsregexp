@@ -1,0 +1,50 @@
+﻿<view caption="JSRegExp" height="200" showCaptionAlways="true" width="200"
+  onopen="view_onOpen()">
+    <div height="72" width="197" x="1" background="#C0C0C0"/>
+    <edit height="16" name="RegularExpression" width="149" x="4" y="25"
+      onkeydown="RegularExpression_onkeydown()"/>
+    <button height="18" width="39" x="157" y="25" onclick="testExpression()"
+      downImage="stock_images\btn_down.png" image="stock_images\btn_normal.png"
+      overImage="stock_images\btn_normal.png"/>
+    <label height="19" width="28" x="160" y="26" bold="true" color="#FF0000"
+      size="8">Test
+    </label>
+    <div height="57" name="Text_bkg" width="197" x="1" y="143" background="#C0C0C0"/>
+    <edit autoscroll="true" height="29" name="TestedText" width="193"
+      x="4" y="168" wordwrap="true" multiline="true"/>
+    <checkbox height="12" name="re_option_i" width="12" x="4" y="44" downImage="stock_images\chk_down.png"
+      image="stock_images\chk_normal.png" overImage="stock_images\chk_over.png"
+      checkedDownImage="stock_images\chk_chk_down.png" checkedImage="stock_images\chk_chk_normal.png"
+      checkedOverImage="stock_images\chk_chk_over.png"/>
+    <label height="16" width="75" x="17" y="42">Ignore case
+    </label>
+    <checkbox height="12" name="re_option_g" width="12" x="4" y="58" downImage="stock_images\chk_down.png"
+      image="stock_images\chk_normal.png" overImage="stock_images\chk_over.png"
+      checkedDownImage="stock_images\chk_chk_down.png" checkedImage="stock_images\chk_chk_normal.png"
+      checkedOverImage="stock_images\chk_chk_over.png"/>
+    <label height="16" width="86" x="17" y="56">Global match
+    </label>
+    <img height="22" width="196" x="1" y="143" src="captionbar.png"/>
+    <label height="16" width="82" x="18" y="147" bold="true" color="#FFFFFF"
+     >Text to test
+    </label>
+    <img height="23" width="197" x="1" y="-1" src="captionbar.png"/>
+    <label height="16" width="131" x="15" y="4" bold="true" color="#FFFFFF"
+     >Regular expression
+    </label>
+    <div height="64" width="196" x="2" y="76" background="#C0C0C0"/>
+    <img height="22" width="197" x="1" y="75" src="captionbar.png"/>
+    <label height="16" width="59" x="18" y="79" bold="true" color="#FFFFFF"
+     >Results
+    </label>
+    <label height="15" name="ResultsCount" width="29" x="4" y="97" bold="true"
+      color="#FF0000">0
+    </label>
+    <label height="35" width="46" x="22" y="97" size="8" wordwrap="true"
+     >matches found
+    </label>
+    <edit autoscroll="true" enabled="false" height="36" hitTest="htnowhere"
+      name="Matches" width="127" x="69" y="100" wordwrap="true"
+      multiline="true"/>
+    <script src="main.js" />
+</view>
