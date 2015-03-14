@@ -1,0 +1,1 @@
+Tester wyrażeń regularnych dla programu Google Desktop.
